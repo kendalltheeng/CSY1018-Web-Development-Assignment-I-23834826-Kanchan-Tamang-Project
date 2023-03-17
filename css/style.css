@@ -13,6 +13,10 @@ a{
 header{
     background-color: #e1eaf7;
 }
+.img0{
+    width: 400px;
+    margin-left: 450px;
+}
 .container{
     max-width:77rem;
     margin-inline: auto;
@@ -137,7 +141,9 @@ transition: transform 2.5s;
 .card.youtube:hover{
     background-color: #c41111;
 }
-.img source{
-    height: 15px;
-    width: 30px;
+
+.photo {
+    display:inline;
+    margin-bottom:2px;
+    position: relative;
 }
