@@ -18,14 +18,14 @@ header {
 }
 
 .img0 {
-    width: 170px;
+    width: 167px;
     position:relative;
 }
 
 .wel {
     margin: auto;
     color: rgb(14, 4, 24);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .container {
@@ -182,6 +182,7 @@ width:100%;
     height: 500px;
     margin: 0, 14px, 0, 15px;
 }
+main 
 
 .col header .title{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -219,4 +220,19 @@ width:100%;
     line-height: 1.2;
     color: #d15d55;
     font-size: 17px; 
+    font-family: cursive;
+}
+.oho {
+    box-align: center;
+    border-radius: 29px;
+}
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 250px;
+    margin-bottom: 210px;
+    font-weight: bolder;
+    box-align:center;
+    background-color: #e8e8f5;
+    margin-right: 150px;
+    cursor: pointer;
 }
