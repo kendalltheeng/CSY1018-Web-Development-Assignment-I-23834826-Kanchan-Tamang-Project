@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #f1efea;
+    background-color:lavender;
 }
 
 a {
@@ -14,7 +14,7 @@ a {
 }
 
 header {
-    background-color: #e1eaf7;
+    background-color:white;
 }
 
 .img0 {
@@ -166,35 +166,14 @@ h2 {
     background-color: #c41111;
 }
 .gallery{
-    width: 90%;
-    margin:auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    columns:5 250px;
+    gap:15px;
 }
-
-.photo1 img {
-    width: 90%;
+.gallery img{
+margin-bottom:10px;
+border-radius:5px;
+width:100%;
 }
-
-.photo2 img {
-    width: 100%;
-}
-
-.photo3 img {
-    width: 100%;
-}
-
-.photo4 img {
-    width: 90%;
-}
-.photo5 img {
-    width: 80%;
-}
-.photo6 img {
-    width: 170%;
-}
-
 .home {
     display: flex;
     border-block: solid;
@@ -202,4 +181,42 @@ h2 {
     border-radius: 30px;
     height: 500px;
     margin: 0, 14px, 0, 15px;
+}
+
+.col header .title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0e0e0f;
+}
+.col.contents{
+    padding: 0px 30px;
+    border-left:2px solid black;
+}
+.col .contents .bax{
+ position: relative;
+ padding: 20px;
+ border:1px solid #1d1d1d;
+ background-color: #ffffff;
+ cursor: pointer;
+ transition: all 0.7s;
+ margin-bottom: 20px;  
+}
+.col .contents .bax:hover{
+    box-shadow: 0px 3px 12px 0px #2360af;
+    border:1px solid transparent;
+}
+
+.bax h4{
+    position:relative;
+    color:#e6aaad;
+}
+.bax h1{
+    font-size: 20px;
+    padding: 10px 0px 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#da89c1;
+}
+.bax p{
+    line-height: 1.2;
+    color: #d15d55;
+    font-size: 17px; 
 }
