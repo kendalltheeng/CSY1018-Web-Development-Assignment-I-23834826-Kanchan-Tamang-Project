@@ -258,4 +258,5 @@ main
 .reporttt img {
     width: 800px;
     height:450px;
+    border-radius: 15px;
 }
