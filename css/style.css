@@ -57,13 +57,6 @@ header {
     text-transform: uppercase;
 }
 
-.active {
-    position: absolute;
-    bottom: -1rem;
-    height: 2px;
-    width: 11rem;
-    transition: transform 0.25s;
-}
 
 .nav-item:nth-child(2):hover~.active {
     transform: translateX(10rem);
